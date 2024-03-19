@@ -16,6 +16,7 @@ export const FooterContent = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    opacity: .6;
 `;
 
 export const IconsFooter = styled.div`

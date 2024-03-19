@@ -11,10 +11,6 @@ export const ProfileCardContent = styled.div`
     margin: 0 auto;
     padding: 1.5rem 1.5rem;
     height: 12.313rem;
-    
-    @media(max-width: 680px){
-        height: 18rem;
-    }
     overflow: hidden;
     
     display: flex;
@@ -22,7 +18,13 @@ export const ProfileCardContent = styled.div`
     align-items: flex-start;
     gap: 20px;
     border-radius: 10px;
-
+    
+    @media(max-width: 680px){
+        height: 30rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    
     >img {
         max-width: 140px;
         border-radius: 50% 50% 50% 50%;
@@ -48,8 +50,10 @@ export const ProfileCardTextContent = styled.div`
         display: flex;
         margin-top: auto;  
         gap: 1rem;
+        width: 100%;
         @media(max-width: 680px){
             flex-direction: column;
+            align-items: center;
         }
         >a {
             padding: 6px 10px;

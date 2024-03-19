@@ -2,7 +2,8 @@ import styled from "styled-components";
 import { mixins } from "../../styles/mixins";
 
 export const PortfolioContainer = styled.div`
-    padding: 0 0 1.25rem;
+    padding: 0 0 3rem;    
+    height:auto;
 `;
 
 export const PortfolioContent = styled.div`
@@ -13,8 +14,8 @@ export const PortfolioContent = styled.div`
     gap: 16px;
     
     display: flex;
-    flex-direction: column;
-    height: 12.313rem;
+    flex-direction: column;  
+    height:auto;
 `;
 
 export const PortfolioTitleContent = styled.div`
