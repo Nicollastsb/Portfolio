@@ -14,6 +14,7 @@ export const PortfolioContent = styled.div`
     
     display: flex;
     flex-direction: column;
+    height: 12.313rem;
 `;
 
 export const PortfolioTitleContent = styled.div`
@@ -29,6 +30,7 @@ export const PortfolioTitleContent = styled.div`
 export const PortfolioItemsContent = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 12px;
     
     >div{

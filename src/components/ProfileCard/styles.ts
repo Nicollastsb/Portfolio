@@ -12,6 +12,11 @@ export const ProfileCardContent = styled.div`
     padding: 1.5rem 1.5rem;
     height: 12.313rem;
     
+    @media(max-width: 680px){
+        height: 18rem;
+    }
+    overflow: hidden;
+    
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -34,16 +39,18 @@ export const ProfileCardTextContent = styled.div`
     height: 100%;
     padding: 1.25rem;
     
-    div:nth-of-type(1) {
+    >p {
         ${mixins.fonts.titleS}        
     }
     
-    div:nth-of-type(2) {
-        
+    >div{        
         ${mixins.fonts.textM}    
         display: flex;
         margin-top: auto;  
         gap: 1rem;
+        @media(max-width: 680px){
+            flex-direction: column;
+        }
         >a {
             padding: 6px 10px;
             border-radius: 13px;

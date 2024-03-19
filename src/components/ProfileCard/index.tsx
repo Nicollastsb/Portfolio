@@ -8,7 +8,7 @@ export function ProfileCard (){
             <ProfileCardContent>
                 <img src={avatar} alt=""/>
                 <ProfileCardTextContent>
-                    <div>Oi, eu sou Nícollas. Sou desenvolvedor de software full-stack.</div>
+                    <p>Oi, eu sou Nícollas. Sou desenvolvedor de software full-stack.</p>
                     <div>
                         <a title="nicollas-barbosa-dev" href={"https://www.linkedin.com/in/nicollas-barbosa-dev/"} target="_blank">
                             <LinkedinLogo size={24} weight="fill" /><span>LinkedIn</span>
