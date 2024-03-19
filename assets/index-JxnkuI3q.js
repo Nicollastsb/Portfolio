@@ -144,6 +144,7 @@ Error generating stack: `+i.message+`
     
     display: flex;
     flex-direction: column;
+    height: 12.313rem;
 `,nm=xe.div`
     width: 100%;
     display: flex;
@@ -155,6 +156,7 @@ Error generating stack: `+i.message+`
 `,rm=xe.div`
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 12px;
     
     >div{
@@ -238,6 +240,11 @@ Error generating stack: `+i.message+`
     padding: 1.5rem 1.5rem;
     height: 12.313rem;
     
+    @media(max-width: 680px){
+        height: 18rem;
+    }
+    overflow: hidden;
+    
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -258,16 +265,18 @@ Error generating stack: `+i.message+`
     height: 100%;
     padding: 1.25rem;
     
-    div:nth-of-type(1) {
+    >p {
         ${bl.fonts.titleS}        
     }
     
-    div:nth-of-type(2) {
-        
+    >div{        
         ${bl.fonts.textM}    
         display: flex;
         margin-top: auto;  
         gap: 1rem;
+        @media(max-width: 680px){
+            flex-direction: column;
+        }
         >a {
             padding: 6px 10px;
             border-radius: 13px;
@@ -280,4 +289,4 @@ Error generating stack: `+i.message+`
             border-bottom: 1px solid ${e=>e.theme["base-text"]};
         }
     }
-`,cm="/Portfolio/assets/face-DmVZxNd0.jpg";function fm(){return _.jsx(um,{children:_.jsxs(am,{children:[_.jsx("img",{src:cm,alt:""}),_.jsxs(sm,{children:[_.jsx("div",{children:"Oi, eu sou Nícollas. Sou desenvolvedor de software full-stack."}),_.jsxs("div",{children:[_.jsxs("a",{title:"nicollas-barbosa-dev",href:"https://www.linkedin.com/in/nicollas-barbosa-dev/",target:"_blank",children:[_.jsx(ia,{size:24,weight:"fill"}),_.jsx("span",{children:"LinkedIn"})]}),_.jsxs("a",{title:"Nicollastsb",href:"https://github.com/Nicollastsb",target:"_blank",children:[_.jsx(Lr,{size:24,weight:"fill"}),_.jsx("span",{children:"GitHub"})]}),_.jsxs("a",{title:"email",children:[_.jsx(la,{size:24,weight:"fill"}),_.jsx("span",{children:"nicollastsb@gmail.com"})]})]})]})]})})}function dm(){return _.jsxs(_.Fragment,{children:[_.jsx(bh,{}),_.jsx(fm,{}),_.jsx(om,{}),_.jsx(Xh,{})]})}function pm(){return _.jsxs(bp,{theme:rh,children:[_.jsx(lh,{}),_.jsx(dm,{})]})}eo.createRoot(document.getElementById("root")).render(_.jsx(g.StrictMode,{children:_.jsx(pm,{})}));
+`,cm="/Portfolio/assets/face-DmVZxNd0.jpg";function fm(){return _.jsx(um,{children:_.jsxs(am,{children:[_.jsx("img",{src:cm,alt:""}),_.jsxs(sm,{children:[_.jsx("p",{children:"Oi, eu sou Nícollas. Sou desenvolvedor de software full-stack."}),_.jsxs("div",{children:[_.jsxs("a",{title:"nicollas-barbosa-dev",href:"https://www.linkedin.com/in/nicollas-barbosa-dev/",target:"_blank",children:[_.jsx(ia,{size:24,weight:"fill"}),_.jsx("span",{children:"LinkedIn"})]}),_.jsxs("a",{title:"Nicollastsb",href:"https://github.com/Nicollastsb",target:"_blank",children:[_.jsx(Lr,{size:24,weight:"fill"}),_.jsx("span",{children:"GitHub"})]}),_.jsxs("a",{title:"email",children:[_.jsx(la,{size:24,weight:"fill"}),_.jsx("span",{children:"nicollastsb@gmail.com"})]})]})]})]})})}function dm(){return _.jsxs(_.Fragment,{children:[_.jsx(bh,{}),_.jsx(fm,{}),_.jsx(om,{}),_.jsx(Xh,{})]})}function pm(){return _.jsxs(bp,{theme:rh,children:[_.jsx(lh,{}),_.jsx(dm,{})]})}eo.createRoot(document.getElementById("root")).render(_.jsx(g.StrictMode,{children:_.jsx(pm,{})}));
