@@ -1,13 +1,21 @@
 import { ThemeProvider } from "styled-components";
-import { defaultTheme } from "./styles/themes/default";
+import { whiteTheme } from "./styles/themes/whiteMode";
+import { darkTheme } from "./styles/themes/darkMode";
 import { GlobalStyles } from "./styles/global";
 import { HomePage } from "./pages/HomePage";
+import { useState } from "react";
 
-export function App() {
+export function App() {  
+  const [theme, setTheme] = useState("dark")
+  const isDarkTheme : boolean = theme === "dark"
+  const toggleTheme = (checked: boolean) => {
+      setTheme(checked ? "light" : "dark")
+  }
+
   return (
-    <ThemeProvider theme={defaultTheme}>
+    <ThemeProvider theme={isDarkTheme ? whiteTheme : darkTheme}>
       <GlobalStyles/>
-      <HomePage/>
+        <HomePage toggleTheme={toggleTheme}/>
     </ThemeProvider>
   )
 }

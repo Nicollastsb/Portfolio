@@ -1,0 +1,22 @@
+{
+  "translation": {
+    "PresentationCard_Title": "From conception to implementation, my commitment is to deliver excellence. I'm the web developer who will make a difference.",
+    "PresentationCard_Subtitle": "Hi, I'm Nícollas, your next software developer.",
+    "PresentationCard_Button": "About me",
+
+    "ProfileCard_Title": "About me",
+    "ProfileCard_Text": "With a three-year history as a full stack developer, I have focused my efforts on technologies such as .NET and React.js to create robust and intuitive products. In addition to my practical experience, I am constantly expanding my knowledge through courses and staying up to date with software development best practices.",
+    "ProfileCard_ToolBoxTitle": "Knowledge in:",
+    "ProfileCard_CurriculumText": "Want to know more? Download my CV:",
+
+    "PortfolioCard_Subtitle": "Discover some of the solutions created by me.",
+    "PortfolioCard_GitHubText": "An application that uses the GitHub API to fetch issues from this repository, profile data to display it as a blog.",
+    "PortfolioCard_ToDoListText": "To do list, to train basic concepts of reactjs such as state, state immutability, lists and keys, properties and componentization.",
+
+    "Email_copied": "Email copied!",
+    "Dark_Mode": "Dark Mode",
+    "Light_Mode": "Light Mode",
+
+    "footer": "Footer {{year}}"
+  }
+}

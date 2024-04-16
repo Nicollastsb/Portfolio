@@ -13,10 +13,12 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body {
-        background-color: ${props => props.theme['teal-800']};
-        color: ${props => props.theme['white']};
+        //background-color: ${props => props.theme['backgroundColor']};
+        color: ${props => props.theme['textColor']};
         -webkit-font-smoothing: antialiased;
         height: 100vh;
+        transition: 0.500s; 
+        padding-top: 79px;
     }
 
     body, input, textarea, button {

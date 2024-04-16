@@ -1,0 +1,22 @@
+{
+  "translation": {
+    "PresentationCard_Title": "Da concepção à implementação, meu compromisso é entregar excelência. Sou o desenvolvedor web que fará a diferença.",
+    "PresentationCard_Subtitle": "Oi, eu sou <b>Nícollas</b>, seu próximo desenvolvedor de software.",
+    "PresentationCard_Button": "Sobre mim",
+
+    "ProfileCard_Title": "Sobre mim",
+    "ProfileCard_Text": "Com uma trajetória de três anos como desenvolvedor full stack, tenho concentrado meus esforços em tecnologias como <b>.NET</b> e <b>React.js</b> para criar produtos robustos e intuitivos. Além da minha experiência prática, estou constantemente expandindo meu conhecimento através de cursos e me manter atualizado com as melhores práticas de desenvolvimento de software.",
+    "ProfileCard_ToolBoxTitle": "Conhecimento em:",
+    "ProfileCard_CurriculumText": "Quer saber mais? Faça o download do meu currículo:",
+
+    "PortfolioCard_Subtitle": "Conheça algumas das soluções criadas por mim.",
+    "PortfolioCard_GitHubText": "Um aplicativo que usa a API GitHub para procurar problemas neste repositório e criar o perfil dos dados para exibi-los como um blog.",
+    "PortfolioCard_ToDoListText": "To do list, para treinar conceitos básicos de reactjs como estado, imutabilidade de estado, listas e chaves, propriedades e componenteização.",
+
+    "Email_copied": "Email copiado!",
+    "Dark_Mode": "Modo escuro",
+    "Light_Mode": "modo claro",
+
+    "footer": "Rodape {{year}}"
+  }
+}
