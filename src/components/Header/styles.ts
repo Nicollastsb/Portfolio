@@ -4,7 +4,7 @@ import { mixins } from "../../styles/mixins";
 export const HeaderContainer = styled.header`
     padding: 1.25rem 0 1.25rem;
     ${mixins.fonts.titleCoda}
-    border-bottom: 1px solid ${props => props.theme["base-text"]}; 
+    border-bottom: 2px solid ${props => props.theme["thirdBackground"]}; 
     position: fixed;
     width: 100%;
     z-index: 9999;

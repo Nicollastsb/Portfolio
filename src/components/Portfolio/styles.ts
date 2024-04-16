@@ -57,6 +57,7 @@ export const ProjectCardContent = styled.div`
     flex-direction: column;
     align-items: flex-start;
     //justify-content: center;
+    background-color: ${props => props.theme["thirdBackground"]};
     gap: 1rem; 
     border-radius: 12px;    
     transition: 1s;       
@@ -80,7 +81,6 @@ export const ProjectCardContent = styled.div`
     >img{
         width: 100%;
         padding: 1px;
-        border-bottom: 2px solid ${props => props.theme["green-600"]};
         transition: 1s ease;   
         border-top-left-radius: 12px;
         border-top-right-radius: 12px;
